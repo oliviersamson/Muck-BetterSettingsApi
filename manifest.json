@@ -1,0 +1,7 @@
+{
+  "name": "BetterSettingsApi",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/oliviersamson/Muck-BetterSettingsApi",
+  "description": "Mod of Terrain's SettingsApi mod. 'Fixes incompatibilities with other mods like SaveUtility. Reverts back original settings and makes the menu a little bit better.",
+  "dependencies": [ "BepInEx-BepInExPack_Muck-5.4.1101", "Terrain-SettingsApi-1.1.1" ]
+}

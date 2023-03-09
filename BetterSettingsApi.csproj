@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>BetterSettingsApi</AssemblyName>
-    <Description>Fixes incompatibilities with other mods like SaveUtility. Reverts back original settings and makes the menu a little bit better.</Description>
+    <Description>Mod of Terrain's SettingsApi mod. Fixes incompatibilities with other mods like SaveUtility. Reverts back original settings and makes the menu a little bit better.</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
