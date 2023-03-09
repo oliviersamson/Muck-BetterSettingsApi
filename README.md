@@ -2,7 +2,7 @@
 
 This i a mod of Terrain's SettingsApi mod. 
 
-The main goal here was to get compatibility with mods that make use of the original settings pages (like flarfo's SaveUtility).
+The main goal here was to get compatibility with mods that make use of the original settings pages (like flarfo's [SaveUtility](https://muck.thunderstore.io/package/flarfo/SaveUtility/ "Thunderstore").
 
 I also cleared up some annoyances like the extremely slow scroll speed and the pages' elasticity when trying to scroll or drag something.
 
