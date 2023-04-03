@@ -8,7 +8,7 @@ namespace BetterSettingsApi
     {
         public const string PLUGIN_GUID = "muck.mrboxxy.bettersettingsapi";
         public const string PLUGIN_NAME = "BetterSettingsApi";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.0.1";
     }
 
     [BepInPlugin(Globals.PLUGIN_GUID, Globals.PLUGIN_NAME, Globals.PLUGIN_VERSION)]

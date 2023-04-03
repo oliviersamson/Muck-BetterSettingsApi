@@ -1,6 +1,6 @@
 # BetterSettingsApi
 
-This i a mod of Terrain's SettingsApi mod. 
+This is a mod of Terrain's [SettingsApi](https://muck.thunderstore.io/package/Terrain/SettingsApi/ "Thunderstore") mod. 
 
 The main goal here was to get compatibility with mods that make use of the original settings pages (like flarfo's [SaveUtility](https://muck.thunderstore.io/package/flarfo/SaveUtility/ "Thunderstore")).
 
