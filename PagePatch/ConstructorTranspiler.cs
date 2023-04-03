@@ -42,10 +42,10 @@ namespace BetterSettingsApi.PagePatch
 
                     // Make a copy of the VerticalLayoutGroup with the content area as its parent, remove its padding and set it active
                     VerticalLayoutGroup copy = MonoBehaviour.Instantiate<VerticalLayoutGroup>(tab.GetComponent<VerticalLayoutGroup>(), content.transform);
-                    copy.padding = new RectOffset(0, 0, 0, 0);                   
-                    copy.gameObject.SetActive(true);
+                    copy.padding = new RectOffset(0, 0, 0, 0);
+                    copy.gameObject.SetActive(true);                    
 
-                    // Set the content's scakling to the original scaling
+                    // Set the content's scaling to the original scaling
                     content.GetComponent<VerticalLayoutGroup>().spacing = copy.spacing;
 
                     // Force it to be rebuilt in order to get good values for preferredWidth and preferredHeight in order to resize it
@@ -72,6 +72,7 @@ namespace BetterSettingsApi.PagePatch
                     foreach (Transform child in children)
                     {
                         child.SetParent(copy.transform);
+                        child.localScale = Vector3.one;
                     }
 
                     // Destroy the original Vertical Layout Group
